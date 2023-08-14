@@ -3,12 +3,12 @@ package Atividade01;
 abstract class Transportadora {
     protected String nome;
     protected String endereco;
-    protected double taxaEntrega;
+    protected double txEntrega;
 
     public Transportadora(String nome, String endereco, double taxaEntrega) {
         this.nome = nome;
         this.endereco = endereco;
-        this.taxaEntrega = taxaEntrega;
+        this.txEntrega = taxaEntrega;
     }
 
     public abstract double calculaFrete(int altura, int largura);
