@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ContaSalarioTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in ContaSalarioTest
+testPagamentoComSaldoInsuficiente  Time elapsed: 0.042 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at ContaSalarioTest.testPagamentoComSaldoInsuficiente(ContaSalarioTest.java:26)
+
